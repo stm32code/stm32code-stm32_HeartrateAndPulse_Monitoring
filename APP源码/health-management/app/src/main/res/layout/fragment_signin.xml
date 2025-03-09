@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Frame.SigninFragment">
+
+    <EditText
+        android:id="@+id/sign_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="用户名"
+        android:textSize="16sp"
+        android:maxLength="11"
+        android:maxLines="1"
+        android:background="@drawable/login_input" />
+
+    <EditText
+        android:id="@+id/sign_password"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="密码"
+        android:textSize="16sp"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:background="@drawable/login_input" />
+
+    <Button
+        android:id="@+id/sign_btn"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:background="@drawable/login_btn"/>
+</LinearLayout>
